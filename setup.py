@@ -1,14 +1,10 @@
 from setuptools import setup
 
-setup(
-    name='clean-folder',
-    version='0.1',
-    packages=['clean_folder'],
-    entry_points={
-        'console_scripts': [
-            'clean-folder=clean_folder.clean:main',
-        ],
-    },
-    install_requires=[],
-    python_requires='>=3.6',
-)
+setup(name='clean_folder',
+      version='0.0.1',
+      description='',
+      url='http://github.com/shrek2008/homework7',
+      author='Shrek2008',
+      author_email='vovansh266@gmail.com',
+      license='MIT',
+      packages=['clean'])
